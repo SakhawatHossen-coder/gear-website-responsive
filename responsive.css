@@ -29,4 +29,17 @@
           font-size: 16px;
 
      }
+     /* Sponsored */
+     .sponsor{
+          max-width: 88%;
+          margin: 0 auto;
+          flex-wrap: wrap;
+     }
+     /* Products */
+     .products_grid{
+          grid-template-columns: 1fr;
+     }
+     .btn2{
+          text-align: center;
+     }
 }
