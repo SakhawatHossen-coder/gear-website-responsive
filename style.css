@@ -1,0 +1,54 @@
+
+*,
+*::before,
+*::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     overflow-x: hidden;
+}
+
+html {
+     font-size: 62.5%;
+}
+body{
+     font-family: "Poppins",sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+     display: block;
+     max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     overflow-wrap: break-word;
+}
+
+li {
+     list-style: none;
+}
+
+a {
+     text-decoration: none;
+     color: black;
+}
+p{
+     font-size: 1.56rem;
+}
+h3{
+     font-size: 2.75rem;
+}
+button,
+input {
+     border: none;
+     outline: none;
+}
